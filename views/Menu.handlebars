@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="css/bootstrap.min.css"/>
+<header class="titulo">
+    {{> dashboard }}
+    <h1>Bienvenido al Mercado Web</h1>
+    <h2>Seleccione sus productos</h2>
+</header>
+<section class="container-fluid">
+  <div class="row">
+      {{> producto }}
+  </div>
+</section>
+{{> modal }}
+
+<style>
+  .titulo {
+      text-align: center;
+
+  }
+</style>
